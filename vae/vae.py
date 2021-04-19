@@ -85,7 +85,7 @@ def train():
             batch_size=batch_size,
             validation_data=(x_test, None))
 
-train()
+vae.load_weights("models/mod_10.h5")
 
 def show():
 
